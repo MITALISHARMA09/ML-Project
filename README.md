@@ -19,6 +19,7 @@ Key Features:
 
 
 Data and Features:
+
 Dataset: insurance(1).csv 
 Features used:
 1.	age: Age of the individual
@@ -30,15 +31,18 @@ Features used:
 7.	charges: Target variable (insurance cost)
 
  Tech Stack
+ 
 •	Python (Pandas, NumPy, Sklearn, Seaborn, Matplotlib)
 •	Jupyter Notebook
 •	Tkinter (for web interface)
 
 Preprocessing Steps
+
 •	Load CSV using pandas
 •	One-hot encode categorical variables (sex, smoker, region)
 
 Visualizations
+
 •	Distplot for all numerical features.
 •	 Countplot for all categorical features.
 •	Correlation heatmap to visualize feature interrelationships.
@@ -65,8 +69,9 @@ ML-Project/
 ├── README.md # Project overview and instructions 
 
  How to Run
+ 
 1.	Clone the repo:
-git clone https://github.com/yourusername/ML -Project.git
+git clone https://github.com/yourusername/ML-Project.git
 cd ML-Project
 2.	Install dependencies:
 •	pip install -r requirements.txt
